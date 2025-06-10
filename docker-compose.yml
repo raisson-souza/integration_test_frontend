@@ -1,0 +1,10 @@
+services:
+  projecttemplateweb:
+    build:
+      context: .
+      dockerfile: project_template_web.dockerfile
+    restart: always
+    container_name: projecttemplateweb
+    env_file: ".env"
+    ports:
+      - "3001:3001"
