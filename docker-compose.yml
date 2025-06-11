@@ -1,10 +1,10 @@
 services:
-  projecttemplateweb:
+  frontend:
     build:
       context: .
       dockerfile: project_template_web.dockerfile
     restart: always
-    container_name: projecttemplateweb
+    container_name: frontend
     env_file: ".env"
     ports:
-      - "3001:3001"
+      - "8001:8001"
