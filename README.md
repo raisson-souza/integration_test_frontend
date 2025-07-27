@@ -1,1 +1,1 @@
-Modelo de Projeto Frontend Web em React TS com Next
+Projeto de teste de integração (frontend)
